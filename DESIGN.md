@@ -1,10 +1,11 @@
 # NOCTERRA design direction
 
-NOCTERRA is a browser-based medieval-fantasy ambience for a laptop and projector. The scene is a three-arch Gothic window: solid black stonework holds the foreground while local forest, castle, rain, and fog footage fills the openings.
+NOCTERRA is a browser-based personal dashboard for a laptop or projector. The main view keeps the time and today's planning visible together in a single viewport.
 
-- Dark Forest and muted greens keep the scene nocturnal. Antique Gold is reserved for the wordmark, control edges, and keyboard focus.
-- The three distinct apertures make the window itself the main composition. Controls stay compact at the edge so the view remains dominant.
-- Georgia gives the wordmark an old-world character without a remote font dependency. Segoe UI keeps controls familiar on Windows.
-- Local videos loop behind the frame. Rain is drawn on one capped-resolution canvas; fog drifts slowly and lightning flashes only occasionally. Pause stops the scene and effects, while reduced-motion preferences use still posters.
-- Audio is silent until the user enables it. A local rain loop and independently adjustable thunder track have separate volume settings, mute, and pause controls.
-- Every image and sound file in `public/media/` is listed with its source and license in `public/media/SOURCES.md`.
+- Midnight Blue sets the screen: `#080F1C` for the ground, `#14243D` for dashboard surfaces, and `#D6FF45` for the few active or current states.
+- The layout uses an editorial hierarchy: a large local clock, a quiet date line, and compact panels for the calendar, tasks, upcoming schedule, weather, and GitHub activity.
+- Georgia gives the clock and headings a measured editorial character. Segoe UI keeps labels and controls familiar on Windows.
+- The calendar and clock use the device's local time. Tasks are stored in browser local storage. Weather and GitHub remain clearly disconnected until a data source is configured.
+- The dashboard fits one viewport without page or nested scrolling. Smaller screens reflow the panels while keeping every section visible.
+- Dial: ENERGY 2 / RHYTHM 2 / MOTION 1. The clock anchors the first scan; the calendar, tasks, and agenda share the upper row, while the GitHub grid gets twice the weather width for its week columns. Motion stays with the live clock and direct interaction feedback.
+- Lime marks the NOCTERRA wordmark, current date and time, and primary task action. Panel icons and borders stay subdued so the accent retains its hierarchy.
