@@ -1,9 +1,10 @@
 # NOCTERRA design direction
 
-Reading this as: an ambient medieval-fantasy web app for laptop and projector screens, in a quiet forest-at-night visual language. ENERGY 2 / RHYTHM 1 / MOTION 1.
+NOCTERRA is a browser-based medieval-fantasy ambience for a laptop and projector. The scene is a three-arch Gothic window: solid black stonework holds the foreground while local forest, castle, rain, and fog footage fills the openings.
 
-- Dark Forest grounds the screen in the product's night setting. Emerald outlines the arch motif, Storm Blue tints the upper sky, and Antique Gold marks the night symbol and category.
-- A single centered composition keeps the first screen legible from a projected image. The arch is a restrained reference to medieval thresholds, not a logo or a feature illustration.
-- Georgia gives the title an old-world character without a remote font dependency. Segoe UI keeps supporting text familiar on Windows.
-- The Moon icon identifies the nocturnal setting. The only navigation link returns to the main screen; no feature controls ship without a real action.
-- Motion stays still at this stage. The only movement is the skip link appearing on keyboard focus.
+- Dark Forest and muted greens keep the scene nocturnal. Antique Gold is reserved for the wordmark, control edges, and keyboard focus.
+- The three distinct apertures make the window itself the main composition. Controls stay compact at the edge so the view remains dominant.
+- Georgia gives the wordmark an old-world character without a remote font dependency. Segoe UI keeps controls familiar on Windows.
+- Local videos loop behind the frame. Rain is drawn on one capped-resolution canvas; fog drifts slowly and lightning flashes only occasionally. Pause stops the scene and effects, while reduced-motion preferences use still posters.
+- Audio is silent until the user enables it. A local rain loop and independently adjustable thunder track have separate volume settings, mute, and pause controls.
+- Every image and sound file in `public/media/` is listed with its source and license in `public/media/SOURCES.md`.
